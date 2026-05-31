@@ -1,13 +1,21 @@
 # {{ contact.name }}
 **{{ titles[lang] }}**
 
-{{ contact.email }} | [LinkedIn]({{ contact.linkedin }}) | [GitHub]({{ contact.github }}) | [Website]({{ contact.website }}) | [Google Scholar]({{ contact.scholar }})
+{{ contact.location[lang] }} • {{ contact.phone }} • {{ contact.email }} • [LinkedIn]({{ contact.linkedin }}) • {{ contact.work_eligibility[lang] }}
 
 ---
 
 ## {{ headers.profile[lang] }}
 
 {{ profile[lang] }}
+
+---
+
+## {{ headers.competencies[lang] }}
+
+{% for comp in competencies.domain %}{{ comp[lang] }}{% if not loop.last %} • {% endif %}{% endfor %}
+
+{% for tool in competencies.tools %}{{ tool }}{% if not loop.last %} • {% endif %}{% endfor %}
 
 ---
 
@@ -22,44 +30,28 @@
 {% endfor %}
 
 {% endfor %}
----
-
-## {{ headers.education[lang] }}
-
-{% for edu in education.primary %}
-*   {{ edu.title[lang] }}
-    * {{ edu.description[lang] }}
-{% endfor %}
-
-{{ education.additional_header[lang] }}
-
-{% for edu in education.additional %}
-*   {{ edu[lang] }}
-{% endfor %}
-
-{{ education.mentorship_header[lang] }}
-
-{% for mentor in education.mentorship %}
-*   {{ mentor[lang] }}
-{% endfor %}
-
----
-
-## {{ headers.publications[lang] }}
-
-{{ publications_header[lang] }}
-
-{% for pub in publications %}
-{{ loop.index }}.  {{ pub[lang] }}
-{% endfor %}
+*{{ earlier_experience[lang] }}*
 
 ---
 
 ## {{ headers.skills[lang] }}
 
 {% for skill in skills %}
-*   {{ skill[lang] }}
+*   **{{ skill.category[lang] }}:** {{ skill.items[lang] if skill.items is mapping else skill.items }}
 {% endfor %}
 
 ---
-*{{ contact.location[lang] }}*
+
+## {{ headers.education[lang] }}
+
+{% for edu in education.primary %}
+*   {{ edu.title[lang] }} | *{{ edu.period }}*
+{% endfor %}
+
+---
+
+## {{ headers.certifications[lang] }}
+
+{% for cert in certifications %}
+*   {{ cert[lang] }}
+{% endfor %}

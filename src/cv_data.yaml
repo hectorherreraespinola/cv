@@ -1,219 +1,266 @@
 contact:
-  name: "Gustavo Ezequiel Juantorena"
-  email: "gjuantorena@gmail.com"
-  linkedin: "https://www.linkedin.com/in/gustavo-juantorena/"
-  github: "https://github.com/GEJ1"
-  website: "https://gustavojuantorena.com/"
-  scholar: "https://scholar.google.com/citations?user=gcAKY2IAAAAJ&hl=en"
-  location: 
-    en: "Buenos Aires, Argentina | Available for relocation/remote work pending convenience."
-    es: "Buenos Aires, Argentina | Disponibilidad para relocalización/remoto según conveniencia."
+  name: "Hector J. Herrera"
+  email: "herrerae.hj@icloud.com"
+  phone: "+353 871 864 406"
+  linkedin: "https://linkedin.com/in/herrerraespinolahj"
+  portfolio: "https://linkedin.com/in/herrerraespinolahj"
+  location:
+    en: "Ireland"
+    es: "Irlanda"
+  work_eligibility:
+    en: "Full Work Eligibility"
+    es: "Permiso de Trabajo Completo"
 
 titles:
-  en: "Data Scientist | Machine Learning Researcher | Computational Neuroscientist"
-  es: "Data Scientist | Machine Learning Researcher | Neurocientífico Computacional"
+  en: "Senior Data & Analytics Engineer | Data Science"
+  es: "Senior Data & Analytics Engineer | Ciencia de Datos"
 
 headers:
   profile:
-    en: "Professional Profile"
-    es: "Perfil Profesional"
+    en: "Professional Summary"
+    es: "Resumen Profesional"
+  competencies:
+    en: "Core Competencies"
+    es: "Competencias Clave"
   experience:
-    en: "Relevant Experience"
-    es: "Experiencia Relevante"
+    en: "Professional Experience"
+    es: "Experiencia Profesional"
+  skills:
+    en: "Technical Skills & Languages"
+    es: "Habilidades Técnicas e Idiomas"
   education:
     en: "Education"
     es: "Educación"
-  publications:
-    en: "Selected Scientific Production"
-    es: "Producción Científica Seleccionada"
-  skills:
-    en: "Technical Skills"
-    es: "Habilidades Técnicas"
+  certifications:
+    en: "Certifications & Awards"
+    es: "Certificaciones y Premios"
 
 profile:
-  en: "Interdisciplinary Data Scientist and Neuroscientist, currently in the final stage of a Ph.D. in Computer Science (University of Buenos Aires). Specialized in **behavioral analysis, eye-tracking, and Machine Learning applied to computational psychiatry**. My experience ranges from predictive modeling and advanced processing of psychophysiological signals and trajectories to Open Source software development. Passionate about translating complex human behavior problems into data-driven solutions, communicating them effectively, and building valuable, scalable software products."
-  es: "Data Scientist y Neurocientífico con enfoque interdisciplinario, cursando la etapa final del Doctorado en Ciencias de la Computación (UBA). Especializado en **análisis de comportamiento, eye-tracking y Machine Learning aplicados a la psiquiatría computacional**. Mi experiencia abarca desde el modelado predictivo y procesamiento avanzado de señales psicofisiológicas y trayectorias hasta el desarrollo de herramientas Open Source. Apasionado por traducir problemas complejos del comportamiento humano en soluciones basadas en datos, comunicarlas efectivamente y crear productos de software útiles y escalables."
+  en: "Analytics Engineer with over 5 years of experience building reliable data infrastructure, BI solutions, and end-to-end reporting pipelines across healthcare, legal insurance, FMCG, and manufacturing sectors. Proven track record designing scalable DBT data models, cloud-based pipelines, and executive dashboards that drive business performance and enable stakeholder self-service. Skilled in Python, SQL, DBT, and Snowflake, with hands-on experience in Azure (Data Factory, Synapse, Databricks), advanced data modeling (star/snowflake schema, OBTs, SCDs), and data quality frameworks including contracts and validation checks. Experienced applying AI tools to data workflows — including cloud AI and emerging AI platforms — to automate pipelines and improve data accessibility. Strong background in data governance, compliance data, cross-functional collaboration, and mentoring. Fluent in Spanish and English, with intermediate Portuguese."
+  es: "Analytics Engineer con más de 5 años de experiencia construyendo infraestructura de datos confiable, soluciones de BI y pipelines de reportes end-to-end en sectores de salud, seguros legales, FMCG y manufactura. Historial comprobado diseñando modelos de datos DBT escalables, pipelines en la nube y dashboards ejecutivos que impulsan el rendimiento del negocio y permiten el autoservicio de stakeholders. Habilidades en Python, SQL, DBT y Snowflake, con experiencia práctica en Azure (Data Factory, Synapse, Databricks), modelado avanzado de datos (star/snowflake schema, OBTs, SCDs) y frameworks de calidad de datos incluyendo contratos y validaciones. Experiencia aplicando herramientas de IA a flujos de trabajo de datos para automatizar pipelines y mejorar la accesibilidad de datos. Sólida trayectoria en gobernanza de datos, datos de cumplimiento, colaboración interfuncional y mentoría. Fluido en español e inglés, con portugués intermedio."
+
+competencies:
+  domain:
+    - en: "Analytics Engineering"
+      es: "Analytics Engineering"
+    - en: "Data Modeling (Star/Snowflake Schema, OBT, SCD)"
+      es: "Modelado de Datos (Star/Snowflake Schema, OBT, SCD)"
+    - en: "Data Quality & Contracts"
+      es: "Calidad de Datos y Contratos"
+    - en: "Compliance & Regulatory Data"
+      es: "Datos de Cumplimiento y Regulatorios"
+    - en: "Pipeline Development & Automation"
+      es: "Desarrollo y Automatización de Pipelines"
+    - en: "AI-Driven Workflows"
+      es: "Flujos de Trabajo con IA"
+    - en: "Data Governance"
+      es: "Gobernanza de Datos"
+    - en: "Stakeholder Management"
+      es: "Gestión de Stakeholders"
+  tools:
+    - "DBT"
+    - "Snowflake"
+    - "Python"
+    - "SQL"
+    - "Azure (Data Factory, Synapse, Databricks)"
+    - "Airflow"
+    - "Power BI"
+    - "Sigma"
+    - "Tableau"
+    - "Fivetran"
 
 experience:
-  - id: "graduate_researcher"
+  - id: "datavant"
     title:
-      en: "Graduate Researcher (Ph.D. Candidate in Computer Science)"
-      es: "Investigador en Formación (Doctorando en Ciencias de la Computación)"
+      en: "Senior BI / Analytics Engineer"
+      es: "Senior BI / Analytics Engineer"
     company:
-      en: "Applied Artificial Intelligence Lab (LIAA, ICC, UBA-CONICET)"
-      es: "Laboratorio de Inteligencia Artificial Aplicada (LIAA, ICC, UBA-CONICET)"
-    period: "2020 - 2026"
+      en: "Datavant | Ireland"
+      es: "Datavant | Irlanda"
+    period: "Jan 2026 – Present"
     highlights:
       en:
-        - "**Project:** Development of computational tools for the early detection of cognitive deficits using predictions based on visual and manual trajectories."
-        - "**Predictive Modeling:** Application of Machine Learning to classify and understand the algorithm behind complex task execution in patients. Feature engineering derived from high-precision measurements (hand & eye tracking)."
-        - "**Experimental Web Development:** Implementation of remote cognitive assessments via webcam eye-tracking, developing custom browser-based data capture solutions."
-        - "*Funding: CONICET Doctoral Fellowship.*"
+        - "Design and maintain DBT data models (staging, intermediate, mart layers) in Snowflake; translate complex compliance and legal insurance requirements into clean, tested, well-documented SQL transformations with data contracts and validation checks."
+        - "Build and maintain Sigma dashboards supporting executive and operational decision-making across Finance, Product, and Operations teams in healthcare and legal insurance domains."
+        - "Integrate data from multiple source systems including HealthSource, Salesforce, NetSuite, Stripe, and SaaS platforms via Fivetran; debug data quality issues and investigate lineage across multi-source environments."
+        - "Apply AI tools to automate data workflows and pipeline generation; collaborate cross-functionally to define metrics and surface insights to both technical and non-technical stakeholders."
       es:
-        - "**Proyecto:** Desarrollo de herramientas computacionales para la detección temprana de déficits cognitivos mediante predicciones basadas en trayectorias visuales y manuales."
-        - "**Modelado Predictivo:** Uso de Machine Learning para clasificar y entender el algoritmo detrás de la ejecución de tareas complejas en pacientes. Ingeniería de features a partir de mediciones de alta precisión (hand & eye tracking)."
-        - "**Desarrollo Web Experimental:** Implementación de evaluaciones cognitivas remotas mediante eye-tracking por cámara web, desarrollando soluciones para capturar datos en el navegador."
-        - "*Financiamiento: Beca de Doctorado CONICET.*"
+        - "Diseño y mantenimiento de modelos de datos DBT (capas staging, intermediate, mart) en Snowflake; traducción de requisitos complejos de cumplimiento y seguros legales en transformaciones SQL limpias, testeadas y documentadas con contratos y validaciones de datos."
+        - "Construcción y mantenimiento de dashboards Sigma para la toma de decisiones ejecutivas y operativas en equipos de Finanzas, Producto y Operaciones en dominios de salud y seguros legales."
+        - "Integración de datos de múltiples sistemas fuente incluyendo HealthSource, Salesforce, NetSuite, Stripe y plataformas SaaS vía Fivetran; depuración de problemas de calidad de datos e investigación de linaje en entornos multi-fuente."
+        - "Aplicación de herramientas de IA para automatizar flujos de trabajo de datos y generación de pipelines; colaboración interfuncional para definir métricas y presentar insights a stakeholders técnicos y no técnicos."
 
-  - id: "data_scientist_caf"
+  - id: "kenvue"
     title:
-      en: "Data Scientist"
-      es: "Data Scientist"
+      en: "Senior Business Analyst"
+      es: "Senior Business Analyst"
     company:
-      en: "Development Bank of Latin America and the Caribbean (CAF)"
-      es: "Banco de Desarrollo de América Latina y el Caribe (CAF)"
-    period: "2021 - 2022"
+      en: "Kenvue | Ireland"
+      es: "Kenvue | Irlanda"
+    period: "Apr 2025 – Dec 2025"
     highlights:
       en:
-        - "**Project:** Early warning system to prevent school dropout in the province of Mendoza, Argentina."
-        - "**Tasks:** Data extraction and cleaning, creation and evaluation of Machine Learning models (risk classification/prediction), and development of dashboards for decision-making."
+        - "Partnered with the Digital Transformation Office to design and deliver BI reporting solutions aligned with global strategic initiatives."
+        - "Led development of Power BI dashboards and automated reporting pipelines, providing executives with real-time KPI visibility across multiple business units."
+        - "Drove data governance and quality initiatives ensuring accuracy, integrity, and security of data used for strategic decision-making."
+        - "Collaborated with IT and business stakeholders to evaluate and integrate Azure and Databricks analytics platforms, improving scalability and reporting performance."
       es:
-        - "**Proyecto:** Sistema de alertas tempranas para prevenir el abandono escolar en la provincia de Mendoza."
-        - "**Tareas:** Extracción y limpieza de datos, creación y evaluación de modelos de Machine Learning (clasificación/predicción de riesgo) y desarrollo de visualizaciones para toma de decisiones."
+        - "Colaboración con la Oficina de Transformación Digital para diseñar y entregar soluciones de reporting BI alineadas con iniciativas estratégicas globales."
+        - "Liderazgo en el desarrollo de dashboards Power BI y pipelines de reportes automatizados, proporcionando visibilidad en tiempo real de KPIs a ejecutivos en múltiples unidades de negocio."
+        - "Impulsión de iniciativas de gobernanza y calidad de datos garantizando exactitud, integridad y seguridad de los datos utilizados en la toma de decisiones estratégicas."
+        - "Colaboración con stakeholders de TI y negocio para evaluar e integrar plataformas analíticas Azure y Databricks, mejorando la escalabilidad y el rendimiento de los reportes."
 
-  - id: "open_source"
+  - id: "jnj"
     title:
-      en: "Open Source Maintainer & Core Contributor"
-      es: "Desarrollador y Colaborador Principal Open Source"
+      en: "Data Engineer"
+      es: "Data Engineer"
     company:
-      en: "DataPruebas / \"pyxations\" Library (Python)"
-      es: "DataPruebas / Librería \"pyxations\" (Python)"
-    period:
-      en: "2024 - Present"
-      es: "2024 - Actualidad"
+      en: "Johnson & Johnson | Ireland (via Réalta Technologies)"
+      es: "Johnson & Johnson | Irlanda (vía Réalta Technologies)"
+    period: "Jul 2023 – Apr 2025"
     highlights:
       en:
-        - "**DataPruebas:** Co-creator of [datapruebas.org](https://datapruebas.org/), an online platform for scientific data collection, integrating open-source frameworks (jsPsych, PsychoPy) and enabling multi-modal data capture (eye-tracking, audio, mouse)."
-        - "**Pyxations:** Co-creator and core contributor of [Pyxations](https://github.com/NeuroLIAA/pyxations), a Python library designed to process, parse, and analyze eye-tracking events and data."
-        - "Software architecture design, implementation of best practices, and open-source project management."
+        - "Built data pipelines ingesting manufacturing, compliance, and inventory process metrics; performed ETL using R, Python, Alteryx, and SQL across internal and cloud-based systems."
+        - "Reduced inventory costs by 25% in Asia-Pacific by identifying excess stock and implementing a batch expiration-based prioritization strategy."
+        - "Accelerated EMEA dashboard performance by 30% by migrating R scripts to PySpark within Databricks."
+        - "Delivered monthly Power BI training to groups of 15–20, increasing data literacy and reporting efficiency across the organization."
       es:
-        - "**DataPruebas:** Co-creador de [datapruebas.org](https://datapruebas.org/), plataforma online para recolección de datos científicos, integrando frameworks open-source (jsPsych, PsychoPy) y habilitando la captura de múltiples modalidades (eye-tracking, audio, mouse)."
-        - "**Pyxations:** Co-creador y colaborador principal de [Pyxations](https://github.com/NeuroLIAA/pyxations), librería de Python orientada a procesar y analizar eventos y datos de eye-tracking."
-        - "Diseño y desarrollo de arquitectura de software, implementación de buenas prácticas y administración de proyectos de código abierto."
+        - "Construcción de pipelines de datos para ingerir métricas de manufactura, cumplimiento y procesos de inventario; ETL con R, Python, Alteryx y SQL en sistemas internos y en la nube."
+        - "Reducción de costos de inventario en un 25% en Asia-Pacífico al identificar exceso de stock e implementar una estrategia de priorización basada en vencimiento de lotes."
+        - "Mejora del rendimiento de dashboards EMEA en un 30% mediante la migración de scripts R a PySpark dentro de Databricks."
+        - "Impartición mensual de formación en Power BI a grupos de 15-20 personas, aumentando la alfabetización en datos y la eficiencia de reportes en la organización."
 
-  - id: "data_analyst_uba"
+  - id: "outer_rim"
     title:
-      en: "Data Analyst (UBA Extension Volunteer)"
-      es: "Analista de Datos (Voluntariado Extensión UBA)"
+      en: "Data Analytics Engineer"
+      es: "Data Analytics Engineer"
     company:
-      en: "Popular Data Workshop (Taller de Datos Populares) - Exactas UBA"
-      es: "Taller de Datos Populares - Exactas UBA"
-    period: "2022 - 2024"
+      en: "Outer Rim | Ireland"
+      es: "Outer Rim | Irlanda"
+    period: "Oct 2022 – Jun 2023"
     highlights:
       en:
-        - "Application of Data Science tools to address social issues."
-        - "Development of **Web Scraping** pipelines to extract, analyze, and consolidate a database of short-term rental prices, assessing their economic impact in the Argentine Patagonia."
+        - "Built and refined Python-based ETL pipelines, reducing query processing time by 8% and improving data accessibility across systems."
+        - "Increased data reliability by 7% through robust data validation techniques within ETL workflows."
+        - "Delivered data-driven reports and interactive visualizations using Power BI and Tableau, uncovering actionable customer insights from web analytics, social media, and CRM data."
       es:
-        - "Aplicación de herramientas de Ciencia de Datos para resolver problemáticas sociales."
-        - "Desarrollo de pipelines de **Web Scraping** para extraer, analizar y consolidar una base de datos de precios de alquileres temporales, evaluando el impacto económico en la Patagonia Argentina."
+        - "Construcción y refinamiento de pipelines ETL basados en Python, reduciendo el tiempo de procesamiento de consultas en un 8% y mejorando la accesibilidad de datos."
+        - "Aumento de la fiabilidad de datos en un 7% mediante técnicas robustas de validación dentro de flujos ETL."
+        - "Entrega de reportes basados en datos y visualizaciones interactivas con Power BI y Tableau, revelando insights accionables de clientes a partir de analítica web, redes sociales y datos CRM."
 
-  - id: "instructor"
+  - id: "naturesweet"
     title:
-      en: "Data Science & Programming Instructor"
-      es: "Docente en Data Science & Programación"
+      en: "Data Analyst"
+      es: "Data Analyst"
     company:
-      en: "NeuroTransmitiendo, Instituto Humai, UBA, Instituto CPE & Argentine Society for Research in Neurosciences (SAN)"
-      es: "NeuroTransmitiendo, Instituto Humai, UBA, Instituto CPE & Sociedad Argentina de Investigación en Neurociencias (SAN)"
-    period:
-      en: "2021 - Present"
-      es: "2021 - Actualidad"
+      en: "NatureSweet | Remote"
+      es: "NatureSweet | Remoto"
+    period: "Mar 2022 – Oct 2022"
     highlights:
       en:
-        - "**Machine Learning Instructor:** Teacher in the Cognitive Neurosciences Diploma (NeuroTransmitiendo). Teaching Assistant for \"Thesis Workshop I\" (Master's in Data Mining and Knowledge Discovery, UBA)."
-        - "**Programming Instructor:** Teacher and material developer for Python courses (**Instituto Humai**). Instructor of *Data Wrangling* and *Data Visualization with Python* (**Instituto CPE**, remote, Uruguay), and the \"Data Analysis and Visualization with Python\" course (**SAN** 2022)."
+        - "Improved master data accuracy by 80% by developing and maintaining Power BI dashboards to monitor data quality and track anomalies."
+        - "Defined and maintained MDM Standard Operating Procedures (SOPs); performed UAT for MDM systems and supported ad-hoc master data requests."
       es:
-        - "**Docencia en Machine Learning:** Docente en la Diplomatura en Neurociencias Cognitivas (NeuroTransmitiendo). Docente auxiliar en el \"Taller de Tesis I\" (Maestría en Data Mining, UBA)."
-        - "**Docencia en Programación:** Docente y desarrollador de material en cursos de Python (**Instituto Humai**). Instructor de *Data Wrangling* y *Visualización de datos con Python* (**Instituto CPE**, remoto, Uruguay), y del curso \"Análisis y visualización de datos con Python\" (**SAN** 2022)."
+        - "Mejora de la exactitud de datos maestros en un 80% mediante el desarrollo y mantenimiento de dashboards Power BI para monitorear calidad de datos y rastrear anomalías."
+        - "Definición y mantenimiento de Procedimientos Operativos Estándar (SOPs) para MDM; realización de UAT para sistemas MDM y soporte de solicitudes ad-hoc de datos maestros."
 
-  - id: "content_creator"
+  - id: "mercadolibre"
     title:
-      en: "Educational Content Creator & Tech Writer"
-      es: "Creador de Contenido Educativo & Tech Writer"
+      en: "Data Analyst — Procurement Operations"
+      es: "Analista de Datos — Operaciones de Compras"
     company:
-      en: "freeCodeCamp & Independent Publications"
-      es: "freeCodeCamp & Publicaciones Independientes"
-    period:
-      en: "2021 - Present"
-      es: "2021 - Actualidad"
+      en: "Mercado Libre | Argentina"
+      es: "Mercado Libre | Argentina"
+    period: "Dec 2019 – Dec 2021"
     highlights:
       en:
-        - "**freeCodeCamp:** First external contributor to the Spanish YouTube channel. Creator of the comprehensive [Web Scraping with Python and BeautifulSoup](https://github.com/GEJ1/web_scraping_freecodecamp) course."
-        - "**Outreach:** Active author of technical articles on Medium and Substack about interactive Python, NLP (e.g., semantic search engines with Streamlit), and programming tutorials."
+        - "Led data analysis projects for the procurement department using Python (Pandas, NumPy, Matplotlib) to clean, transform, and analyze large datasets."
+        - "Achieved 15% cost savings by implementing statistical algorithms to identify supplier performance trends and cost-reduction opportunities."
+        - "Built interactive Power BI dashboards delivering procurement performance insights to key stakeholders; applied predictive modeling to forecast demand and optimize inventory."
       es:
-        - "**freeCodeCamp:** Primer colaborador externo del canal de YouTube en español. Creación del curso completo de [Web Scraping con Python y BeautifulSoup](https://github.com/GEJ1/web_scraping_freecodecamp)."
-        - "**Divulgación:** Autor activo de artículos técnicos en Medium y Substack sobre Python interactivo, NLP (ej. buscadores semánticos con Streamlit), y tutoriales de programación."
+        - "Liderazgo de proyectos de análisis de datos para el departamento de compras usando Python (Pandas, NumPy, Matplotlib) para limpiar, transformar y analizar grandes conjuntos de datos."
+        - "Logro de 15% de ahorro en costos implementando algoritmos estadísticos para identificar tendencias de rendimiento de proveedores y oportunidades de reducción de costos."
+        - "Construcción de dashboards interactivos en Power BI para entregar insights de rendimiento de compras a stakeholders clave; aplicación de modelado predictivo para pronosticar demanda y optimizar inventario."
+
+  - id: "aes"
+    title:
+      en: "IT Sourcing Team Leader"
+      es: "Líder de Equipo de Sourcing IT"
+    company:
+      en: "The AES Corporation | Argentina"
+      es: "The AES Corporation | Argentina"
+    period: "Aug 2018 – Dec 2019"
+    highlights:
+      en:
+        - "Led IT Purchasing Department of 4 professionals across the Americas region, managing all contracts over $400K and spearheading unification of regional purchasing departments into a single Argentina-based operation."
+        - "Identified $1.2M in annual savings through procurement data analysis; standardized laptop acquisition across all countries in the region."
+      es:
+        - "Liderazgo del Departamento de Compras IT de 4 profesionales en la región de las Américas, gestionando todos los contratos superiores a $400K y liderando la unificación de los departamentos de compras regionales en una operación centralizada en Argentina."
+        - "Identificación de $1.2M en ahorros anuales mediante análisis de datos de compras; estandarización de la adquisición de laptops en todos los países de la región."
+
+earlier_experience:
+  en: "**Earlier Experience (2012–2018):** Petronas Lubricants — Direct & Indirect Procurement Manager; set up procurement department from scratch, managed $2M annual purchasing volume across 3 countries, 8% cost savings on energy plant project. IBM — Strategic Sourcing Buyer across 7 countries, awarded IBMer of the Quarter Q4 2013 for outstanding contract negotiation (20% cost savings identified)."
+  es: "**Experiencia Anterior (2012–2018):** Petronas Lubricants — Gerente de Compras Directas e Indirectas; creación del departamento de compras desde cero, gestión de $2M en volumen anual de compras en 3 países, 8% de ahorro en proyecto de planta de energía. IBM — Comprador de Sourcing Estratégico en 7 países, premiado como IBMer del Trimestre Q4 2013 por negociación contractual sobresaliente (20% de ahorro identificado)."
+
+skills:
+  - category:
+      en: "Programming"
+      es: "Programación"
+    items: "Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, SciPy, PySpark), SQL, R, C# (basic)"
+  - category:
+      en: "BI & Viz"
+      es: "BI y Visualización"
+    items: "Power BI (DAX, Power Query), Sigma, Tableau (VizQL), MS Excel (Advanced: Pivot, Macros, VBA), Alteryx"
+  - category:
+      en: "Data Eng."
+      es: "Ing. de Datos"
+    items: "DBT, ETL pipelines, Fivetran, Airflow, Snowflake, Azure (Data Factory, Synapse, Databricks), AWS (foundational)"
+  - category:
+      en: "ML / DS"
+      es: "ML / DS"
+    items:
+      en: "Machine Learning (Linear & Logistic Regression, Decision Trees, SVM, K-Means), Predictive Modeling, Cloud AI Tools, AI-driven Workflow Automation, Prompt Engineering, EDA"
+      es: "Machine Learning (Regresión Lineal y Logística, Árboles de Decisión, SVM, K-Means), Modelado Predictivo, Herramientas de IA en la Nube, Automatización de Flujos con IA, Prompt Engineering, EDA"
+  - category:
+      en: "ERP"
+      es: "ERP"
+    items: "SAP (MM, SD), Oracle ERP"
+  - category:
+      en: "Other"
+      es: "Otros"
+    items: "Git (GitHub, Bitbucket), CI/CD, JIRA, Confluence, Agile / SCRUM"
+  - category:
+      en: "Languages"
+      es: "Idiomas"
+    items:
+      en: "Spanish (Native) • English (Fluent) • Portuguese (Intermediate) • Japanese (Basic)"
+      es: "Español (Nativo) • Inglés (Fluido) • Portugués (Intermedio) • Japonés (Básico)"
 
 education:
   primary:
     - title:
-        en: "**Ph.D. in Computer Science** | UBA (2020 - 2026)"
-        es: "**Doctorado en Ciencias de la Computación** | UBA (2020 - 2026)"
-      description:
-        en: "Topic: *Computational psychiatry: individual differences and identification of executive function deficits.*"
-        es: "Tema: *Psiquiatría computacional: diferencias individuales e identificación de déficits de funciones ejecutivas.*"
+        en: "**Universidad Tecnológica Nacional** — BS Industrial Engineering"
+        es: "**Universidad Tecnológica Nacional** — Ingeniería Industrial"
+      period: "Dec 2016"
     - title:
-        en: "**B.S. in Biological Sciences (Neurosciences track)** | UBA (2011 - 2019)"
-        es: "**Licenciatura en Ciencias Biológicas (Orientación Neurociencias)** | UBA (2011 - 2019)"
-      description:
-        en: "GPA: 7.96 / 10. Thesis conducted at the Applied Artificial Intelligence Lab."
-        es: "Promedio: 7.96 / 10. Tesis en el Lab. de Inteligencia Artificial Aplicada."
-  
-  additional_header:
-    en: "*Notable Additional Education (see LinkedIn for more):*"
-    es: "*Educación Adicional Destacada (ver más en LinkedIn):*"
+        en: "**Henry (Soy Henry Bootcamp)** — Higher Diploma in Data Science & Machine Learning — 800+ hours"
+        es: "**Henry (Soy Henry Bootcamp)** — Diploma Superior en Data Science & Machine Learning — 800+ horas"
+      period: "Sep 2022 – Feb 2023"
+    - title:
+        en: "**EducacionIT** — Unity Game Developer — C# & Unity, 100+ hours"
+        es: "**EducacionIT** — Desarrollador Unity — C# & Unity, 100+ horas"
+      period: "Apr 2024 – Aug 2024"
 
-  additional:
-    - en: "**Generative Artificial Intelligence** (UBA, 2023): Language Models, Word Embeddings, Deep Learning, Computer Vision."
-      es: "**Inteligencia Artificial Generativa** (UBA, 2023): Modelos de lenguaje, Word Embeddings, Deep Learning, Visión por computadora."
-    - en: "**Data Lab** (UBA, 2021): NLP, Web Scraping, APIs, Advanced Regression/Classification Models. *Distinction: Best predictive model in the course's internal Kaggle-style competition.*"
-      es: "**Laboratorio de Datos** (UBA, 2021): NLP, Web Scraping, APIs, Modelos Avanzados de Regresión/Clasificación. *Distinción: Mejor modelo predictivo en la competencia interna Kaggle-style de la materia.*"
-    - en: "**Neuromatch Academy** (2020): Deep Learning, GLM, Dimensionality Reduction, Bayesian Statistics."
-      es: "**Neuromatch Academy** (2020): Deep Learning, GLM, Reducción de dimensionalidad, Estadística Bayesiana."
-
-  mentorship_header:
-    en: "**Mentorship and Co-direction of Theses (B.S. in Computer Science, UBA):**"
-    es: "**Mentoría y Co-dirección de Tesis (Licenciatura en Ciencias de la Computación, UBA):**"
-
-  mentorship:
-    - en: "**Francisco Figari:** *Applicability of remote web eye-tracking to neuropsychological diagnosis* (Defended 2022)."
-      es: "**Francisco Figari:** *Aplicabilidad de eye-tracking web remoto al diagnóstico neuropsicológico* (defendida 2022)."
-    - en: "**Agustín Penas:** *Automatic detection of eye-tracking events* (In progress)."
-      es: "**Agustín Penas:** *Detección automática de eventos de eye-tracking* (en proceso)."
-    - en: "**Gianluca Capelo:** *Prediction of individual differences in executive functions using ML* (In progress)."
-      es: "**Gianluca Capelo:** *Predicción de diferencias individuales en funciones ejecutivas mediante ML* (en proceso)."
-
-publications_header:
-  en: "*(For the complete list of papers and posters refer to Google Scholar)*"
-  es: "*(Para la lista completa de papers y pósters referirse a Google Scholar)*"
-
-publications:
-  - en: "Verón, G. L., **Juantorena, G. E.**, Keller, G., Crivelli, L., & Kamienkowski, J. E. (2026). *Eye tracking as a diagnostic tool in Alzheimer's disease, mild cognitive impairment, and related dementias: a systematic review.* In **Alzheimer's & Dementia: Diagnosis, Assessment & Disease Monitoring**, 18(1), e70238."
-    es: "Verón, G. L., **Juantorena, G. E.**, Keller, G., Crivelli, L., & Kamienkowski, J. E. (2026). *Eye tracking as a diagnostic tool in Alzheimer's disease, mild cognitive impairment, and related dementias: a systematic review.* **Alzheimer's & Dementia: Diagnosis, Assessment & Disease Monitoring**, 18(1), e70238."
-  - en: "**Juantorena, G. E.**, Capelo, G., Leon Vallejos, B. D., Ibáñez, A., Petroni, A., Berrios, W., Fernández, M. C., & Kamienkowski, J. E. (2026). *Machine Learning Based Digital Assessment of Mild Cognitive Impairment Using Hand Movements during the Trail Making Test.* In **medRxiv**."
-    es: "**Juantorena, G. E.**, Capelo, G., Leon Vallejos, B. D., Ibáñez, A., Petroni, A., Berrios, W., Fernández, M. C., & Kamienkowski, J. E. (2026). *Machine Learning Based Digital Assessment of Mild Cognitive Impairment Using Hand Movements during the Trail Making Test.* **medRxiv**."
-  - en: "Belloli, L., Keller, G., Carello, A., Gauder, L., **Juantorena, G. E.**, Corvalan, N., Allegri, R. F., Crivelli, L., & Fernández Slezak, D. (2025). *Multi-modal AI screening for MCI and Alzheimer's Disease: results from an Argentine Cohort.* In **Alzheimer's & Dementia**."
-    es: "Belloli, L., Keller, G., Carello, A., Gauder, L., **Juantorena, G. E.**, Corvalan, N., Allegri, R. F., Crivelli, L., & Fernández Slezak, D. (2025). *Multi-modal AI screening for MCI and Alzheimer's Disease: results from an Argentine Cohort.* **Alzheimer's & Dementia**."
-  - en: "**Juantorena, G. E.**, Gauder, L., Laciana, P., Ferrer, L., & Kamienkowski, J. E. (2025). *DataPruebas: An Online Platform for Data Collection.* In **Argentine Symposium on Artificial Intelligence and Data Science (ASAID 2025)-JAIIO 54**."
-    es: "**Juantorena, G. E.**, Gauder, L., Laciana, P., Ferrer, L., & Kamienkowski, J. E. (2025). *DataPruebas: An Online Platform for Data Collection.* **Simposio Argentino de Inteligencia Artificial y Ciencia de Datos (ASAID 2025)-JAIIO 54**."
-  - en: "**Juantorena, G. E.**, Capelo, G., Leon Vallejos, B. D., Berrios, W., Fernández, M. C., Ibáñez, A., Petroni, A., & Kamienkowski, J. E. (2024). *Enhancing Cognitive Assessment: Integrating Hand and Eye Tracking in the Digital Trail-Making Test for Mild Cognitive Impairment.* In **ETRA '24** (ACM Symposium on Eye Tracking Research and Applications)."
-    es: "**Juantorena, G. E.**, Capelo, G., Leon Vallejos, B. D., Berrios, W., Fernández, M. C., Ibáñez, A., Petroni, A., & Kamienkowski, J. E. (2024). *Enhancing Cognitive Assessment: Integrating Hand and Eye Tracking in the Digital Trail-Making Test for Mild Cognitive Impairment.* **ETRA '24** (ACM Symposium on Eye Tracking Research and Applications)."
-  - en: "**Juantorena, G. E.**, Figari, F., Petroni, A., & Kamienkowski, J. E. (2023). *Web-based eye-tracking for remote cognitive assessments: The anti-saccade task as a case study.* In **bioRxiv**."
-    es: "**Juantorena, G. E.**, Figari, F., Petroni, A., & Kamienkowski, J. E. (2023). *Web-based eye-tracking for remote cognitive assessments: The anti-saccade task as a case study.* **bioRxiv**."
-  - en: "Linari, I.\\*, **Juantorena, G. E.\\***, Ibáñez, A., Petroni, A., & Kamienkowski, J. E. (2022). *Unveiling Trail Making Test: visual and manual trajectories indexing multiple executive processes.* In **Scientific Reports (Nature)**, 12(1), 14265. (\\*Shared first authorship)."
-    es: "Linari, I.\\*, **Juantorena, G. E.\\***, Ibáñez, A., Petroni, A., & Kamienkowski, J. E. (2022). *Unveiling Trail Making Test: visual and manual trajectories indexing multiple executive processes.* **Scientific Reports (Nature)**, 12(1), 14265. (\\*Primera autoría compartida)."
-
-skills:
-  - en: "**Programming Languages:** Python, JavaScript, R, Matlab, SQL."
-    es: "**Lenguajes de Programación:** Python, JavaScript, R, Matlab, SQL."
-  - en: "**Data Science & Machine Learning:** Scikit-Learn, Pandas, NumPy, Exploratory Data Analysis (EDA), Statistical Modeling."
-    es: "**Data Science & Machine Learning:** Scikit-Learn, Pandas, NumPy, Análisis Exploratorio de Datos (EDA), Modelado Estadístico."
-  - en: "**Deep Learning & NLP:** Pytorch, LLMs."
-    es: "**Deep Learning & NLP:** Pytorch, LLMs."
-  - en: "**Data Engineering & Analysis:** Web Scraping (BeautifulSoup, automation), APIs, large-scale data preprocessing."
-    es: "**Ingeniería y Análisis de Datos:** Web Scraping (BeautifulSoup, automatización), APIs, preprocesamiento de grandes volúmenes de datos."
-  - en: "**Development Tools & Frameworks:** Git/GitHub, Jupyter Notebooks, Google Colab, Streamlit, jsPsych."
-    es: "**Herramientas y Frameworks de Desarrollo:** Git/GitHub, Jupyter Notebooks, Google Colab, Streamlit, jsPsych."
-  - en: "**Domain Specialties:** Eye-tracking, Signal Analysis (EEG, temporal trajectories), Online Experiment Design."
-    es: "**Especialidades de Dominio:** Eye-tracking, Análisis de Señales (EEG, trayectorias temporales), Diseño de Experimentos Online."
-  - en: "**Languages:** English (Advanced), Spanish (Native)."
-    es: "**Idiomas:** Inglés (Avanzado), Español (Nativo)."
+certifications:
+  - en: "Python for Everybody Specialization (University of Michigan / Coursera)"
+    es: "Python for Everybody Specialization (Universidad de Michigan / Coursera)"
+  - en: "Supervised Machine Learning: Regression & Classification (Coursera)"
+    es: "Supervised Machine Learning: Regresión y Clasificación (Coursera)"
+  - en: "Capstone: Retrieving, Processing & Visualizing Data with Python (Coursera)"
+    es: "Capstone: Recuperación, Procesamiento y Visualización de Datos con Python (Coursera)"
+  - en: "Negotiation Skills (IBM)"
+    es: "Habilidades de Negociación (IBM)"
+  - en: "IBMer of the Quarter — Q4 2013 (awarded by CEO, IBM Argentina)"
+    es: "IBMer del Trimestre — Q4 2013 (otorgado por el CEO, IBM Argentina)"
+  - en: "\"Competing as a Team to Win\" Recognition (awarded by CEO, Mercado Libre)"
+    es: "Reconocimiento \"Competing as a Team to Win\" (otorgado por el CEO, Mercado Libre)"

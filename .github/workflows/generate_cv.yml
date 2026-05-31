@@ -47,4 +47,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Automated CV generation: update Markdown and PDFs"
-          file_pattern: "src/*.md src/english/*.md output/*.pdf"
+          file_pattern: "src/CV_Hector_Herrera_ES.md src/english/CV_Hector_Herrera_EN.md output/*.pdf"
